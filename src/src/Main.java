@@ -6,13 +6,18 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
 
          Fibonacci fib = new Fibonacci();
-
          int count = 10;
-
-        System.out.println();
+         System.out.println();
 
          for(int i = 0; i < count; i++ ){
              System.out.print(fib.fibonacci(count)[i] + " ");
          }
+
+        FibonacciRecursion fibRuc = new FibonacciRecursion();
+        System.out.println();
+        int f1 = 0;
+        int f2 = 1;
+        System.out.print(f1 + " " + f2);
+        fibRuc.fiboRecursion(count - 2);
     }
 }
