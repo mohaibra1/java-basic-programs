@@ -19,5 +19,10 @@ public class Main {
         int f2 = 1;
         System.out.print(f1 + " " + f2);
         fibRuc.fiboRecursion(count - 2);
+
+        System.out.println();
+
+        //check if it's prime or not
+        PrimeNumber.primeNum(11);
     }
 }
